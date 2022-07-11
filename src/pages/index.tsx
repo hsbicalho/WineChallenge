@@ -1,4 +1,3 @@
-import type { NextPage } from "next";
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import Card from "../components/Card";
@@ -122,7 +121,7 @@ function Home() {
             }}
           />
         )}
-        <span className="total-span">{totalItems} produtos encontrados</span>
+        <span className="al-span">{totalItems} produtos encontrados</span>
       </div>
       <Main>
         <Radio filterByValue={handleFilterByValue} />
